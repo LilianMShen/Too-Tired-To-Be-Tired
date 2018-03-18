@@ -12,7 +12,10 @@
 		21BF8F12205DACEE00059521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BF8F10205DACEE00059521 /* Main.storyboard */; };
 		21BF8F15205DACEE00059521 /* Beep_Beep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21BF8F13205DACEE00059521 /* Beep_Beep.xcdatamodeld */; };
 		21BF8F17205DACEE00059521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BF8F16205DACEE00059521 /* Assets.xcassets */; };
-		21BF8F1A205DACEE00059521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BF8F18205DACEE00059521 /* LaunchScreen.storyboard */; };
+		21BF8F23205DC02F00059521 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF8F21205DC02F00059521 /* TimerViewController.swift */; };
+		21BF8F26205DC49F00059521 /* Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BF8F25205DC49F00059521 /* Gif.swift */; };
+		21BF8F28205DC80B00059521 /* sleepy corgo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21BF8F27205DC80B00059521 /* sleepy corgo.gif */; };
+		21F746D8205E8C2B002AFD43 /* active corgo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 21F746D7205E8C2B002AFD43 /* active corgo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +25,11 @@
 		21BF8F11205DACEE00059521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21BF8F14205DACEE00059521 /* Beep_Beep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Beep_Beep.xcdatamodel; sourceTree = "<group>"; };
 		21BF8F16205DACEE00059521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21BF8F19205DACEE00059521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21BF8F1B205DACEE00059521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21BF8F21205DC02F00059521 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		21BF8F25205DC49F00059521 /* Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gif.swift; sourceTree = "<group>"; };
+		21BF8F27205DC80B00059521 /* sleepy corgo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "sleepy corgo.gif"; path = "../../imges/sleepy corgo.gif"; sourceTree = "<group>"; };
+		21F746D7205E8C2B002AFD43 /* active corgo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "active corgo.gif"; path = "../../imges/active corgo.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,13 @@
 				21BF8F0C205DACEE00059521 /* AppDelegate.swift */,
 				21BF8F0E205DACEE00059521 /* ViewController.swift */,
 				21BF8F10205DACEE00059521 /* Main.storyboard */,
+				21BF8F21205DC02F00059521 /* TimerViewController.swift */,
 				21BF8F16205DACEE00059521 /* Assets.xcassets */,
-				21BF8F18205DACEE00059521 /* LaunchScreen.storyboard */,
+				21BF8F27205DC80B00059521 /* sleepy corgo.gif */,
+				21F746D7205E8C2B002AFD43 /* active corgo.gif */,
 				21BF8F1B205DACEE00059521 /* Info.plist */,
 				21BF8F13205DACEE00059521 /* Beep_Beep.xcdatamodeld */,
+				21BF8F25205DC49F00059521 /* Gif.swift */,
 			);
 			path = "Beep Beep";
 			sourceTree = "<group>";
@@ -126,9 +135,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BF8F1A205DACEE00059521 /* LaunchScreen.storyboard in Resources */,
 				21BF8F17205DACEE00059521 /* Assets.xcassets in Resources */,
 				21BF8F12205DACEE00059521 /* Main.storyboard in Resources */,
+				21F746D8205E8C2B002AFD43 /* active corgo.gif in Resources */,
+				21BF8F28205DC80B00059521 /* sleepy corgo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,9 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21BF8F23205DC02F00059521 /* TimerViewController.swift in Sources */,
 				21BF8F0F205DACEE00059521 /* ViewController.swift in Sources */,
 				21BF8F0D205DACEE00059521 /* AppDelegate.swift in Sources */,
 				21BF8F15205DACEE00059521 /* Beep_Beep.xcdatamodeld in Sources */,
+				21BF8F26205DC49F00059521 /* Gif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,14 +166,6 @@
 				21BF8F11205DACEE00059521 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		21BF8F18205DACEE00059521 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				21BF8F19205DACEE00059521 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -279,12 +283,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVAK544U3E;
 				INFOPLIST_FILE = "Beep Beep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Beep-Beep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,12 +299,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVAK544U3E;
 				INFOPLIST_FILE = "Beep Beep/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.makeschool.Beep-Beep";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
