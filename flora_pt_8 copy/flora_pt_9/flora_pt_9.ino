@@ -15,7 +15,7 @@ Adafruit_LSM303_Accel_Unified accel = Adafruit_LSM303_Accel_Unified(54321);
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_NUM, DATA_PIN, NEO_GRB + NEO_KHZ800);
 float newe;
 float olde;
-float olde_x;
+float olde_x; // added another change mm
 float olde_y;
 float olde_z;
 float theChange;
