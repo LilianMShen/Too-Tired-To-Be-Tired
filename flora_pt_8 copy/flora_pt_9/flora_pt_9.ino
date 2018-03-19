@@ -3,7 +3,7 @@
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_LSM303_U.h>
-
+// whoot github is cool
 
 const int DATA_PIN = 12;
 const int PIXEL_NUM = 2;      // number of pixels
